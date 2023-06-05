@@ -1,0 +1,33 @@
+public To create a full-stack application using Java and Scrum, with options to add, delete, and search for a user-specified file, as well as navigation and application closure, you can follow these steps:
+
+Project Setup:
+
+Set up a new Java project in your preferred IDE (Eclipse or IntelliJ).
+Create the necessary package structure to organize your classes.
+Scrum Planning:
+
+Plan the development in sprints and define the tasks for each sprint.
+Set sprint duration and goals.
+Create a product backlog with user stories and prioritize them.
+Create the Main Class:
+
+Create a class, e.g., FileManagerApp, to serve as the entry point of your application.
+Implement the main method inside this class.
+User Interface:
+
+Implement a console-based user interface to interact with the application.
+Display a menu with options for adding, deleting, searching, navigating, and closing the application.
+Use the Scanner class to read user input.
+File Management Class:
+
+Create a class, e.g., FileManager, to handle the file management functionality.
+Maintain a collection (e.g., an ArrayList) to store the file names.
+Implement methods for adding, deleting, and searching files based on user input.
+Handle navigation and application closure options.
+Integration:
+
+Connect the user interface with the file management class.
+Call the appropriate methods of the FileManager class based on the user's menu choices.
+Display appropriate messages and handle any exceptions or errors gracefully. {
+    
+}
